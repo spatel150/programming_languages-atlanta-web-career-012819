@@ -1,5 +1,5 @@
 def reformat_languages(languages)
-  hash = {}
-  hash[:ruby] = "{",
-  hash[:ruby] = {
+  new_hash = {}
+  new_hash[:ruby] 
+  new_hash[:ruby] = {type: "interpreted"}, {style: [:oo]}
 end
