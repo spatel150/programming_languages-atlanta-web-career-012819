@@ -7,4 +7,8 @@ def reformat_languages(languages)
       else 
         new_hash[name] = type
         new_hash[name][:style] = [method]
+      end
+    end
+  end
+  
 end
