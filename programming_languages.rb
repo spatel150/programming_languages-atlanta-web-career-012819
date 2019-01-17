@@ -1,7 +1,7 @@
 def reformat_languages(languages)
   new_hash = {}
-  languages.each do |method, language_type| 
-    language_type.each do |name, type|
+  languages.each do |method, language_used| 
+    language_used.each do |name, type|
       if new_hash.has_key?(name)
         new_hash[name][:style] << method
       else 
