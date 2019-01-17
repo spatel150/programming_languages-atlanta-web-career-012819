@@ -6,5 +6,5 @@ def reformat_languages(languages)
         new_hash[name][:style] << method
       else 
         new_hash[name]
-        new_hash[name][:style] = [style]
+        new_hash[name][:style] = [method]
 end
